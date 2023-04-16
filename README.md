@@ -1,15 +1,15 @@
-#React Wishlist Widget
+# React Wishlist Widget
 
 This is a simple React app that allows users to create and manage a wish list. The app features a responsive design and uses the React Bootstrap library for styling.
 Features
 
 The app allows users to:
 
-  "*"Add items to the wish list by typing in a textbox and clicking on the "Add" button
-  "*"Remove items from the wish list by clicking on the "Remove" button in front of that item
-  "*"Set priority for each item using radio buttons
-  "*"Update priority for each item
-  "*"Move any item to the top of the list
+"*"Add items to the wish list by typing in a textbox and clicking on the "Add" button
+"*"Remove items from the wish list by clicking on the "Remove" button in front of that item
+"*"Set priority for each item using radio buttons
+"*"Update priority for each item
+"*"Move any item to the top of the list
 
 ##Usage
 
@@ -23,4 +23,4 @@ Dependencies
 
 The app uses the following dependencies:
 
-    "*"react and react-dom for building the user interface
+"*"react and react-dom for building the user interface
