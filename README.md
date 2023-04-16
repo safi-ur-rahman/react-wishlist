@@ -1,6 +1,6 @@
 # React Wishlist Widget
 
-This is a simple React app that allows users to create and manage a wish list. The app features a responsive design and uses the React Bootstrap library for styling.
+This is a simple React app that allows users to create and manage a wish list. The app features a interactive design.
 Features
 
 The app allows users to:
