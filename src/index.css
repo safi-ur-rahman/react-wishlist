@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  margin: 0;
+  padding: 3em;
+  font-family: 'Lato';
+  background-image: linear-gradient(to right, rgb(255, 247, 228), rgb(255, 223, 178), rgb(255, 215, 158) );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  margin-bottom: 1em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.sub-heading {
+  margin: 0em 0.7em;
+}
+
+.line {
+  margin: 1em 1em;
+  border-bottom: 1px rgb(121, 74, 44) solid;
+}
+
+.top{
+  text-align: center;
+}
+
+.product-entry{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  text-align: center;
+}
+
+.add-button Button {
+  margin-top: 1em;
+  padding: 0em 4em;
+  background-color: rgb(121, 74, 44);
+  color: rgb(255, 255, 255);
+  border: 1px rgb(121, 74, 44) solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out, border 0.1s ease-in-out;
+}
+
+.add-button Button:hover {
+  padding: 0em 4em;
+  background-color: bisque;
+  color: rgb(32, 32, 32);
+  border: 1px rgb(121, 74, 44) solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-control {
+  text-align: center;
+  margin-left: 0.5em;
+  border: 1px rgb(121, 74, 44) solid;
+  border-radius: 5px;
+  background-color: rgb(255, 243, 227);
+  color: black;
+  width: 19em;
+  padding: 0.7em 0.7em;
+}
+
+.form-control::placeholder {
+  opacity: 30%;
+}
+
+.priority-entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priority-entry-flex {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.priority-entry-flex label {
+  display: inline-block;
+  width: 60px;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: solid 1px rgb(121, 74, 44);
+  border-radius: 5px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+}
+
+.priority-entry-flex label:hover {
+  display: inline-block;
+  width: 60px;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: solid 1px rgb(121, 74, 44);
+  border-radius: 5px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(255, 241, 226);
+}
+
+.priority-entry-flex input[type="radio"] {
+  display: none;
+}
+
+.priority-entry-flex input[type="radio"]:checked + label {
+  background-color: rgb(121, 74, 44);
+  color: white;
+}
+
+.grid-view {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.product-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  margin: 1em 1em;
+  padding: 1em;
+  border: 1px black solid;
+  border-radius: 5px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.product:hover {
+  margin: 1em 1em;
+  padding: 1em;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: rgb(255, 210, 155);
+}
+
+.product Button {
+  padding: 0em;
+}
+
+.product-action {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-action Button {
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  background-color: rgb(121, 74, 44);
+  color: rgb(255, 255, 255);
+  border: 1px rgb(121, 74, 44) solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out, border 0.1s ease-in-out;
+}
+
+.product-action Button:hover {
+  padding: 0.5em 1em;
+  background-color: bisque;
+  color: rgb(32, 32, 32);
+  border: 1px rgb(121, 74, 44) solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-img {
+  width: 80px;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+}
+
+.product-info {
+  display: flex;
+}
+
+.priority-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priority-flex p {
+  margin-right: 0.5em;
+}
